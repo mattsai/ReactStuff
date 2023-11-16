@@ -28,7 +28,7 @@ function App() {
     }).catch((err) => console.error(err))
   }
   useEffect(() => {
-    console.log('what')
+    // console.log('what')
     fetchUserData.current();
     return () => controller.abort();
   }, [currentPageIndex])
