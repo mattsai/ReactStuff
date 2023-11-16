@@ -1,0 +1,13 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+li{
+  display: unset;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
